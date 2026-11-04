@@ -12,8 +12,18 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""Runtime interfaces and backend implementations."""
+"""Runtime interfaces and implementations."""
 
 from rift.runtime.interface import Runtime
+from rift.runtime.pipeline import (
+    CommandRejectedError,
+    ControlCycleResult,
+    ControlPipeline,
+)
 
-__all__ = ["Runtime"]
+__all__ = [
+    "CommandRejectedError",
+    "ControlCycleResult",
+    "ControlPipeline",
+    "Runtime",
+]
