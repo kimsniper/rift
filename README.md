@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  RIFT is developed by <strong>Variance</strong><br>
+  RIFT is created by <strong>Variance</strong><br>
   <em>Intelligence built for the physical world.</em>
 </p>
 
