@@ -1,3 +1,16 @@
+<p align="center">
+  <img
+    src="assets/variance_logo.png"
+    alt="Variance logo"
+    width="140"
+  >
+</p>
+
+<p align="center">
+  RIFT is developed by <strong>Variance</strong><br>
+  <em>Intelligence built for the physical world.</em>
+</p>
+
 # RIFT
 
 **Robotics Intelligence Framework and Toolchain**
