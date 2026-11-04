@@ -6,13 +6,24 @@ build-backend = "setuptools.build_meta"
 name = "rift-robotics"
 version = "0.1.0.dev0"
 description = "Robotics Intelligence Framework and Toolchain"
+readme = "README.md"
 requires-python = ">=3.10"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+authors = [
+    { name = "Mezael Docoy", email = "kim1991mail@gmail.com" },
+]
 dependencies = []
 
 [project.optional-dependencies]
 dev = [
     "pytest>=8,<9",
 ]
+
+[project.urls]
+Homepage = "https://github.com/kimsniper/rift"
+Repository = "https://github.com/kimsniper/rift"
+Issues = "https://github.com/kimsniper/rift/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]
